@@ -1,0 +1,24 @@
+{
+  "name": "jest",
+  "version": "1.0.0",
+  "description": "Basics of JEST",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watchAll",
+    "test-verbose": "jest --verbose",
+    "test-coverage": "jest --coverage",
+    "test-fat": "jest --watchAll --verbose --coverage"
+  },
+  "keywords": [
+    "JEST",
+    "Unit",
+    "Testing"
+  ],
+  "author": "Zaki",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1"
+  }
+}
